@@ -1,0 +1,324 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: ubuntu;
+}
+
+
+body{
+    position: absolute;
+    width: 600px;
+    left: 50%;
+    top:15%;
+    transform: translate(-50%,-15%);
+    line-height: 1.5;
+}
+
+.headertext{
+    position: absolute;
+    top: 103px;
+}
+
+#header-img{
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translate(-50%,-15%);
+}
+
+header{
+    height: 167px;
+
+}
+
+.mainContent{
+    top:167px;
+}
+
+footer{
+    height: 257px;
+    position: absolute;
+    width: 600px;
+}
+
+h1{
+    margin-left: 150px;
+}
+
+h3{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+
+h6{
+    position: absolute;
+}
+
+ul{
+    font-family: sans-serif;
+    list-style-type: circle;
+    color: red;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+    width: 380px;
+    margin-left: 70px;
+    height: 175px;
+    padding-top: 20px;
+}
+
+li{
+    font-size:12px;
+    line-height: 2;
+
+}
+
+h4{
+    font-family: sans-serif;
+    margin-left: 30px;
+    color: red;
+    font-size: 12px;
+    position: absolute;;
+}
+
+.login{
+    width: 300px;
+    height: 50px;
+}
+.login-h4{
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.login-h4-1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.login-h5{
+    margin-left: 110px;
+}
+
+.login-h5-1{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+h5{
+    position: absolute;
+    font-family: sans-serif;
+    margin-left: 110px;
+    font-size: 12px;
+    margin-top: 35px;
+}
+
+h9{
+    color:black !important;
+    font-weight: 700;
+    font-size: 12px;
+}
+.btn {
+    border: none;
+    font-family: ubuntu;
+    font-size: 14;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 250px;
+    height: 40px;
+    white-space: nowrap;
+    border-radius: 10px;
+    margin-left: 175px;
+  }
+  
+  .btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  /* Pseudo elements for icons */
+  .btn:before {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  
+  /* Icon separator */
+  .btn-sep {
+
+  }
+  
+  .btn-sep:before {
+    background: rgba(0,0,0,0.15);
+  }
+  
+  /* Button 1 */
+  .btn-1 {
+    background: #FFE082;
+    color: #000000;
+    width: 200px;
+    height: 40px;
+
+  }
+  
+  .btn-1:hover {
+    background: #d3b96b;
+  }
+  
+  .btn-1:active {
+    background: #d3b96b;
+    top: 2px;
+  }
+  
+  .btn-1:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+  }
+
+  .footer-div{
+    width: 246px;
+    height: 20px;
+    margin-left: 170px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.footer-text-div{
+    position: absolute;
+    margin-left: 170px;
+}
+
+.footer-text{
+    position:absolute;
+    margin-top: 65px;
+    width: 200px;
+}
+
+h6{
+    width: 200px;
+    margin-top: 80px;
+    margin-left: 37px;
+    font-size: 12px;
+}
+
+.footer-kb{
+    font-weight: 700;
+}
+
+.footer-a{
+    margin-right: 22px;
+}
+
+.vk{
+    width: 27px;
+    height: 16px;
+}
+
+.fasebook{
+    width: 11px;
+    height: 20px;
+}
+
+.telegram{
+    width: 24px;
+    height: 20px;
+}
+
+.youtube{
+    width: 28px;
+    height: 20px;
+}
+
+.instagram{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-background{
+    position: absolute;
+    width: 600px;
+    height: 257px;
+}
+
+
+.top-background{
+    width: 600px;
+}
+
+a{
+    color: red;
+}
+
+
+/* =================================================================*/
+  .ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }

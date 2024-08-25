@@ -1,0 +1,498 @@
+
+
+body{
+    position: absolute;
+    width: 600px;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%,-15%);
+    line-height: 1.5;
+}
+
+
+h2{
+    font-size: 24px;
+    left: 0;
+    line-height: 50px;
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+    font-family: ubuntu;
+}
+
+h1{
+    font-size: 30px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    font-family: ubuntu;
+    position: absolute;
+    margin-bottom: 100px;
+}
+
+h3{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+h4{
+    font-size: 11px;
+    font-family: ubuntu;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+header{
+    height: 167px;
+
+}
+
+.mainContent{
+    top:167px
+}
+
+footer{
+    height: 257px;
+    position: absolute;
+    width: 600px;
+}
+
+.last{
+    margin-top: 50px;
+    width: 380px;
+    height: 100px;
+    border-radius: 14px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.last-img{
+    width: 75px;
+    height: 70px;
+    margin: 12px;
+}
+
+.last-header{
+    font-size: 12px;
+    font-family: ubuntu;
+    font-weight: 600;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.last-sep{
+    font-size: 10px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 37px;
+    width: 260px;
+} 
+
+.headertext{
+    position: absolute;
+    top: 103px;
+}
+
+#grath{
+    margin-left: 50px;
+    width: 500px;
+}
+
+#header-img{
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translate(-50%,-15%);
+}
+
+#antonImg, #almazImg{
+    height: 40px;
+}
+
+.antonmeassage, #almazmeassage{
+    background-color: #E3F2FD;
+    border-radius: 14px;
+    width: 360px;
+    height: 130px;
+    font-size: 11px;
+    font-family: ubuntu;
+    align-items: center;
+
+}
+
+#Anton{
+    margin-bottom: 60px;  
+    margin-left: 30px; 
+}
+
+#Almaz{
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+.antonh, .almazh{  
+    position: fixded;
+    text-align: left;
+    width: 310px;
+    height: 70px;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.buttonstext{
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    margin-left: 80px;
+}
+
+.btn {
+    border: none;
+    font-family: ubuntu;
+    font-size: 14;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 250px;
+    height: 40px;
+    white-space: nowrap;
+    border-radius: 10px;
+    margin-left: 15px;
+  }
+  
+  .btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  /* Pseudo elements for icons */
+  .btn:before {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  
+  /* Icon separator */
+  .btn-sep {
+
+  }
+  
+  .btn-sep:before {
+    background: rgba(0,0,0,0.15);
+  }
+  
+  /* Button 1 */
+  .btn-1 {
+    background: #FFE082;
+    color: #000000;
+    margin-left: 30px
+  }
+  
+  .btn-1:hover {
+    background: #d3b96b;
+  }
+  
+  .btn-1:active {
+    background: #d3b96b;
+    top: 2px;
+  }
+  
+  .btn-1:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    line-height: 3;
+    font-size: 140%;
+    width: 60px;
+  }
+  
+  .btn-2{
+    margin-left: 30px;
+  }
+
+  .btn-3{
+    margin-left: 190px;
+    background-color: #FFE082;
+    width: 200px;
+  }
+
+.squre{
+    width: 160px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    margin-left: 30px;
+}
+.squre-2{
+    left: 30%
+}
+.squre-3{
+    left: 60%
+}
+
+
+.squre-img{
+    width: 61px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+p{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    font-family: ubuntu;
+}
+
+.two-squre{
+    width: 250px;
+    height: 225px;
+    border-radius: 12px;
+    position:absolute;
+}
+
+.two-squre-1{
+    background-color: #FFECB3;
+    margin-left: 30px;
+}
+
+.two-squre-1-text{
+    font-size: 12;
+    text-align: left;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 30px;
+}
+
+.two-squre-2{
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    left: 50%;
+}
+
+.squre-div{
+    width: 520px;
+    height: 180px;
+}
+
+.two-squre-div{
+    height: 250px;
+}
+
+h5{
+    font-weight: 700;
+    font-family: ubuntu;
+    font-size: 10px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+ul{
+    font-family: sans-serif;
+    list-style-type: circle;
+    color: red;
+}
+
+li{
+    font-size:12px;
+    line-height: 2.5;
+}
+
+h8{
+    color: red;
+}
+
+h9{
+    color: black;
+}
+
+
+.third-squre-div{
+    height: 250px;
+}
+
+.third-squre{
+    position: absolute;
+    width: 241px;
+    height: 250px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 14px;
+}
+
+.third-squre-1{
+    left: 50%
+}
+
+.third-squre-2{
+    margin-left: 30px;
+}
+
+.third-squre-img{
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.third-squre-1-img{
+    width: 100px;
+    height: 100px;
+}
+.third-squre-2-img{
+    width: 77px;
+    height: 100px;
+}
+
+.third-squre-header{
+    font-size:18;
+    font-family: ubuntu;
+    font-weight: 800;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.third-squre-header-1{
+    margin-right: 60px;
+    margin-left: 30px;
+}
+
+.third-squre-header-2{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.third-squre-sep{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size:12px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    margin-left: 40px;
+}
+
+.footer-div{
+    width: 246px;
+    height: 20px;
+    margin-left: 170px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+.footer-a{
+    margin-right: 22px;
+}
+
+.vk{
+    width: 27px;
+    height: 16px;
+}
+
+.fasebook{
+    width: 11px;
+    height: 20px;
+}
+
+.telegram{
+    width: 24px;
+    height: 20px;
+}
+
+.youtube{
+    width: 28px;
+    height: 20px;
+}
+
+.instagram{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-background{
+    position: absolute;
+    width: 600px;
+    height: 257px;
+}
+
+.top-background{
+    width: 600px;
+}
+
+a{
+    color:red
+}
+/*-------------------------------------------------------------*/
+
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
